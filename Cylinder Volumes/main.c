@@ -1,16 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/**
+* Computation program that computes the total volume
+ * for a number of cylinders. Heights and radii are
+ * prompted for from the user.
+*
+* Completion time: (20 min)
+*
+* @author Kyle Jeffreys, Rubert Acuna
+* @version (1.0)
+*/
 
-/* 
- * File:   main.c
- * Author: kyle
- *
- * Created on October 17, 2018, 11:19 AM
- */
-
+////////////////////////////////////////////////////////////////////////////////
+//INCLUDES
 #define PI 3.1415
 #include <stdio.h>
 #include <stdlib.h>
@@ -49,8 +49,7 @@ int main(int argc, char** argv) {
 
         sum = sum + getVolume(height, radius);
     }
-    //Display the total volume sum back to the user. Make sure to use the right control
-    //symbol.
+    //Display the total volume sum back to the user.
     printf("Total sum of cylinder volumes is %f\n", sum);
     return 0;
 }
