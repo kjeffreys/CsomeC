@@ -1,15 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/**
+* Program that performs Collatz conjecture check for
+* a given input provided by user. It then displays number
+* of iterations of the termination function that performs
+* the check until 1 is reached.
+*
+* Completion time: (20 min)
+*
+* @author Kyle Jeffreys, Rubert Acuna
+* @version (1.0)
+*/
 
-/* 
- * File:   main.c
- * Author: kyle
- *
- * Created on October 14, 2018, 8:25 PM
- */
+////////////////////////////////////////////////////////////////////////////////
+//INCLUDES
 
 #include <stdio.h>
 #include <stdlib.h>
