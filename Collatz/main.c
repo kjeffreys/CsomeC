@@ -16,6 +16,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 int termination(int);
+
+struct student {
+
+       char student_id[10];
+
+       char name[75];
+
+       float gpa;
+
+       int credits_earned;
+
+       int credits_failed;
+
+};
 /*
  * 
  */
@@ -24,6 +38,8 @@ int main(int argc, char** argv) {
     printf("Give an integer for Collatz conjecture check\n");
     scanf("%d", &input);
     printf("%d iterations are executed for this input", termination(input));
+    printf("\n%d\n",sizeof(float));
+    printf("\n%d\n",sizeof(struct student));
     return (EXIT_SUCCESS);
 }
 
